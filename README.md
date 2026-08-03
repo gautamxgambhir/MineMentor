@@ -39,6 +39,7 @@ MineMentor uses the **OpenAI-compatible API standard**, which is supported by mo
 | Provider | Base URL | Example Models |
 |---|---|---|
 | **OpenAI** | `https://api.openai.com/v1` | `gpt-4o-mini`, `gpt-4o` |
+| **Google Gemini** | `https://generativelanguage.googleapis.com/v1beta/openai/` | `gemini-2.0-flash`, `gemini-1.5-pro` |
 | **Groq** | `https://api.groq.com/openai/v1` | `llama-3.1-8b-instant`, `mixtral-8x7b-32768` |
 | **Together AI** | `https://api.together.xyz/v1` | `meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo` |
 | **Mistral** | `https://api.mistral.ai/v1` | `mistral-small-latest` |
@@ -82,6 +83,13 @@ MODEL=gpt-4o-mini
 > API_KEY=your_groq_api_key
 > API_BASE_URL=https://api.groq.com/openai/v1
 > MODEL=llama-3.1-8b-instant
+> ```
+
+> **Google Gemini example** (free tier available at [aistudio.google.com](https://aistudio.google.com)):
+> ```env
+> API_KEY=your_gemini_api_key
+> API_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
+> MODEL=gemini-2.0-flash
 > ```
 
 ### 5. Configure server connection
