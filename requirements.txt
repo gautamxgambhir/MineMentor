@@ -1,0 +1,4 @@
+openai>=1.0.0
+javascript>=1.0.0
+simple-chalk>=0.1.0
+python-dotenv>=1.0.0
